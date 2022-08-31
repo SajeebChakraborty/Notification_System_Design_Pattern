@@ -1,8 +1,8 @@
 public class SMSNotification implements Notification {
  
     @Override
-    public void notifyUser()
+    public void notifyUser(String text)
     {
-        System.out.println("Sending an SMS notification to user");
+        System.out.println("Sending an SMS notification to user " + text);
     }
 }
